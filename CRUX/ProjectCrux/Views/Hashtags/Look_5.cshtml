@@ -1,0 +1,76 @@
+﻿@model IEnumerable<ProjectCrux.Models.Hashtag>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    th {
+        font-size: 2.2em;
+        text-align: left;
+        border: none 0px;
+        padding-left: 44px;
+    }
+
+    td {
+        font-size: 1.5em;
+        padding: 0.25em 2em 0.25em 0em;
+        border: 0 none;
+    }
+</style>
+
+
+
+<h2 style="font-size:39px;">Matching Tag List</h2>
+@{
+    List<ProjectCrux.Models.Question> question = ViewBag.Question;
+}
+<table class="table">
+    <tr>
+        <th>
+            <h1>@Html.DisplayNameFor(model => model.hashtagName):</h1>
+        </th>
+        <th>
+            <h1>@Html.DisplayNameFor(model => model.hashtagDescription):</h1>
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                #    @Html.DisplayFor(modelItem => item.hashtagName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.hashtagDescription)
+            </td>
+
+
+        </tr>
+    }
+    <tr>
+        <th>
+            <h1>Related Questions:</h1>
+        </th>
+    </tr>
+    @foreach (var item in question)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.question)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", "Question", new { id = item.questionId }, null)
+            </td>
+        </tr>
+
+
+    }
+
+</table>
+@{
+    @ViewBag.questions
+}

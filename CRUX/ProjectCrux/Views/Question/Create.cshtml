@@ -1,0 +1,66 @@
+﻿@model ProjectCrux.Models.Question
+
+@{
+    ViewBag.Title = "Ask Question";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/jquery.tagit.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-2.1.1.min.js"></script>
+<script src="~/Scripts/jquery-ui.js"></script>
+<script src="~/Scripts/tag-it.js"></script>
+<link href="~/Content/jquery-ui.css" rel="stylesheet" />
+<h2>What's your Question?</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.computerCourse, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("computerCourseID")
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.question, new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.EditorFor(model => model.question)
+                @Html.ValidationMessageFor(model => model.question)
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label for="hashtags" class="control-label col-md-2">Tags</label>
+            <div class="col-md-5">
+                <input id="hashtags" name="hashtags" class="form-control" />
+            </div>
+        </div>
+        <div class="postscript" style="padding-left: 285px;">
+            <p>Separate tags by comma.</p>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input style="color: #245682" type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#hashtags").tagit();
+    });
+
+</script>

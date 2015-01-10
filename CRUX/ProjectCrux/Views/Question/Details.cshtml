@@ -1,0 +1,224 @@
+﻿@model ProjectCrux.Models.Question
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Scripts/jquery-2.1.1.min.js"></script>
+<style>
+   
+    tr {
+        border-bottom: 3px solid #000;
+        
+        font-size:20px;
+    }
+    dt{
+        font-size:24px;
+        color:purple;
+    }
+    dd{
+    font-size:24px;
+    }
+
+</style>
+@Styles.Render("~/Content/bootstarp")
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<h2> &nbsp;</h2>
+
+@{
+    var info = ViewBag.SortingPagingInfo;
+    var question = ViewBag.question;
+    int pagedId = info.PageId;
+
+}
+
+@using(Html.BeginForm("Details", "Question", FormMethod.Post)){
+
+@Html.Hidden("SortField", (string)info.SortField)
+@Html.Hidden("SortDirection", (string)info.SortDirection)
+@Html.Hidden("PageCount", (int)info.PageCount)
+@Html.Hidden("PageSize", (int)info.PageSize)
+@Html.Hidden("CurrentPageIndex", (int)info.CurrentPageIndex)
+@Html.Hidden("PageId", (int)info.PageId)
+@Html.Hidden("QuestionId", (int)ViewBag.question, new { htmlAttributes = new { @class = "question", @id = "question" } })
+
+    <div class="body">
+        <div>
+            <h2>Question Details</h2>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    Asked By:
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Student.firstName)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.question):
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.question)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.computerCourse.computerCourseName):
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.computerCourse.computerCourseName)
+                </dd>
+               
+
+
+            </dl>
+        </div>
+        <br />
+        <p>&nbsp;&nbsp;Report Admin &nbsp;&nbsp;</p>
+        <br/>
+        <div id="Rating">
+            <!--The actual buttons that need to be changed-->
+            <a href="#" data-points="@(1)" class="thumbs">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a> ||
+            <a href="#" data-points="@(-1)" class="thumbs">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-o-down"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; &nbsp; Rating :
+
+            <!--Sorry for this being ugly, this is the rating-->
+            @Html.DisplayFor(model => model.questionRating)
+            <br />
+            <script>
+                //the ajax call to actually vote
+                $(document).ready(function () {
+                    $(".thumbs").click(function (evt) {
+                        var vote = {
+                            questionRating: $(evt.target).data("points"),
+                            questionId: $('#QuestionId').val()
+                        };
+                        console.log(vote);
+                        $.ajax({
+                            url: '/Question/Rate',
+                            contentType: "application/json",
+                            type: "POST",
+                            data: JSON.stringify(vote),
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                console.log("FAIL: " + errorThrown);
+                            },
+                            success: function (data, textStatus, jqXHR) {
+                                console.log("SUCCES");
+                            }
+                        });
+
+                        $("form").submit();
+
+                    });
+                });
+
+            </script>
+        </div>
+        <br />
+        <br />
+        <p style="font-size:16px;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; User Responses: </p>
+        <div id="Answers" style="padding-left: 33px;">
+            <div class="border" style=" width: 920px; padding: 10px; border: 5px solid gray;  margin: 0; padding-left:33px;">
+                <table border="1" cellpadding="20">
+
+                    @foreach (var item in ViewBag.answers)
+                    {
+                        <tr>
+                            <td>@item.answer</td>
+                            <td>@item.postDate</td>
+
+
+                        </tr>
+
+                    }
+
+                    <tr>
+                        
+                        <td colspan="4">
+                            Page:
+                            @for (var i = 0; i < info.PageCount; i++)
+                            {
+
+                                if (i == info.CurrentPageIndex)
+                                {
+                                    <span>@(i + 1)</span>
+                                }
+                                else
+                                {
+                                    <a href="#" data-pageindex="@i"
+                                       class="pager">@(i + 1)</a>
+                                }
+
+                            }
+
+                            <script>
+                                $(document).ready(function () {
+                                    $(".pager").click(function (evt) {
+                                        var pageindex = $(evt.target).data("pageindex");
+                                        $("#CurrentPageIndex").val(pageindex);
+                                        evt.preventDefault();
+                                        $("form").submit();
+                                    });
+                                });
+                            </script>
+                        </td>
+                    </tr>
+
+
+
+                </table>
+            </div>
+            <br />
+            <div class="answerBox" style="padding-left:45px; ">
+                @Html.TextBoxFor(Model => Model.nulled, new { id = "answerBox", maxlength = 360 })
+
+                <button type="button" id="button">Answer</button>
+
+                <script>
+                    $("button").click(function () {
+
+                        //get form info for answer
+                        var form = {
+                            answer: $('#answerBox').val(),
+                            questionID: $('#QuestionId').val()
+                        };
+                        console.log(form);
+
+
+
+                        //answer ajax request
+                        $.ajax({
+                            url: '/Answers/Answer',
+                            contentType: "application/json",
+                            type: "POST",
+                            data: JSON.stringify(form),
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                console.log("FAIL: " + errorThrown);
+                            },
+                            success: function (data, textStatus, jqXHR) {
+                                console.log("SUCCES");
+                            }
+                        });
+
+                        $("#CurrentPageIndex").val(1);
+                        $("form").submit();
+                        $("#CurrentPageIndex").val(1);
+                        $("form").submit();
+                        $("#CurrentPageIndex").val(0);
+                        $("form").submit();
+
+
+
+                        $("#answerBox").val("");
+                    });
+                </script>
+
+            </div>
+
+
+
+
+        </div>
+
+        <br />
+    </div>
+}

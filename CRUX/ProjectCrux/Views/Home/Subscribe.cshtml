@@ -1,0 +1,186 @@
+﻿
+
+<style>
+    /*    --------------------------------------------------
+    :: Login Section
+    -------------------------------------------------- */
+    #email{
+position: relative;
+margin-left: 476px;
+font-size: 24px;
+color: black;
+top:50%;
+
+    }
+      #button-position{
+position: absolute;
+margin-left: 280px;
+top: 31px;
+    }
+    #Subscribe {
+        padding-top: 50px;
+        background-image: url('../Content/img/demo/_small/blur.jpg');
+        background-repeat: repeat;
+    }
+
+        #Subscribe .form-wrap {
+            width: 30%;
+            margin: 0 auto;
+        }
+
+        #Subscribe h1 {
+            color: #026ab3;
+            font-size: 28px;
+            text-align: center;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+
+        #Subscribe .form-group {
+            margin-bottom: 25px;
+        }
+
+        #Subscribe .checkbox {
+            margin-bottom: 20px;
+            position: relative;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+            #Subscribe .checkbox.show:before {
+                content: '\e013';
+                color: #1fa67b;
+                font-size: 17px;
+                margin: 1px 0 0 3px;
+                position: absolute;
+                pointer-events: none;
+                font-family: 'Glyphicons Halflings';
+            }
+
+            #Subscribe .checkbox .character-checkbox {
+                width: 25px;
+                height: 25px;
+                cursor: pointer;
+                border-radius: 3px;
+                border: 1px solid #ccc;
+                vertical-align: middle;
+                display: inline-block;
+            }
+
+            #Subscribe .checkbox .label {
+                color: #6d6d6d;
+                font-size: 13px;
+                font-weight: normal;
+            }
+
+        #Subscribe.btn.btn-custom {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        #Subscribe .forget {
+            font-size: 13px;
+            text-align: center;
+            display: block;
+        }
+
+    /*    --------------------------------------------------
+    :: Inputs & Buttons
+    -------------------------------------------------- */
+    .form-control {
+        color: #212121;
+    }
+
+    .btn-custom {
+        color: #fff;
+        background-color: #026ab3;
+    }
+
+        .btn-custom:hover,
+        .btn-custom:focus {
+            color: #fff;
+        }
+
+    /*    --------------------------------------------------
+    :: Footer
+    -------------------------------------------------- */
+    #footer {
+        color: #6d6d6d;
+        font-size: 12px;
+        text-align: center;
+    }
+
+        #footer p {
+            margin-bottom: 0;
+        }
+
+        #footer a {
+            color: inherit;
+        }
+</style>
+
+
+@model ProjectCrux.Models.AccountLoginViewModel
+@{
+    ViewBag.Title = "Subscribe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.ValidationMessage("UserDoesNotExist");
+
+
+
+
+    <section id="Subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class ="form-group">
+                        <div class="form-wrap">
+                            <h1 style="font-size:39px;">Subscribe for Important Updates!</h1>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                         
+
+                        </div>
+                
+                        <div class="form-group"id="email">
+                            <button type="submit"class="btn btn-custom" id="button-position">Subscribe</button>
+                             <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" placeholder=" Email..." style="width: 280px">
+                       
+                           
+                         </div>
+                    
+                         <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                       
+                        
+                        
+                    </div>
+                </div> <!-- /.col-xs-12 -->
+            <hr>
+            <hr>
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+        <div style="text-align:center; font-size:17.3px; color:white;">
+            <br />
+            <br />
+            <div class="form-make">
+                <button class="btn btn-primary" type="button" style="padding-left:6px; color:white; font-size:28px;">
+                    @Html.ActionLink("Become a Member!", "Create", "Student")
+                </button>
+            </div>
+           <br />
+
+
+        </div>
+    </section>
+
+    
+
+}

@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Crux";
+}
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+<link href="@Url.Content("~/Content/parallaxstyle.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/base.css")" rel="stylesheet" type="text/css" />
+@Styles.Render("~/Content/parallaxstyle.css")
+@Styles.Render("~/Content/base.css")
+
+
+<main>
+
+    <section class="module parallax parallax-1">
+        <div class="container">
+            <h1>Ask</h1>
+        </div>
+    </section>
+
+    <section class="module content">
+        <div class="container" style="color:black;">
+            <h2>Recent Questions</h2>
+            <p>@Html.ActionLink("^ Adding ASP.NET Identity to an Empty or Existing Web Forms Project?   -Cam Otts - SLU - |7 hrs ago|", "Answer", "Home") </p>
+            <p>@Html.ActionLink("^  Anyone got Dr. McDowells second assignment? -Professor X - MIT - |4 hrs ago|", "Answer", "Home") </p>
+            <p>@Html.ActionLink("^  Boyer-Moore Algorithm shift rules? -Shrestha - Stanford- |20 seconds ago|", "Answer", "Home") </p>
+            <p></p>
+        </div>
+    </section>
+
+    <section class="module parallax parallax-2">
+        <div class="container">
+            <h1>Answer</h1>
+        </div>
+    </section>
+
+    <section class="module content">
+        <div class="container" style="color:black;">
+            <h2>Recently Uploaded</h2>
+            
+            <p>@Html.ActionLink("[Link] || Learn MVC in 2 days for Dummies.     -Mark Zuckerberg   - |1 week ago|","Answer","Home") </p>
+            <p>[Link] || Understand Numerical Analysis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Dennis Ritchie&nbsp;&nbsp;- |1 month ago|</p>
+            <p>[PDF] || Control Structures through Data Structures by Gaddis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Dustin</p>
+            <p>[DOC] || Working with Ruby on Rails&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Larry Page&nbsp;&nbsp;- |1 month ago|  </p>
+        </div>
+    </section>
+
+    <section class="module parallax parallax-3">
+        <div class="container">
+            <h1>Explore</h1>
+        </div>
+    </section>
+
+    <section class="module content">
+        <div class="container" style="color:black;">
+            <h2>Trending</h2>
+            <p>@Html.ActionLink("#DataStructure", "HashTaggs", "Home") @Html.ActionLink("#Python", "HashTaggs", "Home") </p>
+            <p>@Html.ActionLink("#asp.net", "HashTaggs", "Home") @Html.ActionLink("#Stanford", "HashTaggs", "Home") </p>
+            <p>@Html.ActionLink("#CS50", "HashTaggs", "Home") </p>
+            <p>@Html.ActionLink("#razor", "HashTaggs", "Home")  @Html.ActionLink("#MIThackathon", "HashTaggs", "Home")</p>
+
+        </div>
+    </section>
+
+</main><!-- /main -->
+
+
+
+
+<!-- analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34160351-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>

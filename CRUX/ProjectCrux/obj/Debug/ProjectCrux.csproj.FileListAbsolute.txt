@@ -1,0 +1,554 @@
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\ProjectCrux.dll.config
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\ProjectCrux.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\ProjectCrux.pdb
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Antlr3.Runtime.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\EntityFramework.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\EntityFramework.SqlServer.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Newtonsoft.Json.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Owin.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\RequestReduce.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.Helpers.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.Mvc.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.Optimization.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.Razor.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.Razor.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\WebGrease.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\RequestReduce.pdb
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.Helpers.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.Mvc.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.Optimization.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.Razor.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.Razor.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Antlr3.Runtime.pdb
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Newtonsoft.Json.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\EntityFramework.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\EntityFramework.SqlServer.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.pdb
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.csprojResolveAssemblyReference.cache
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate.resources
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.csproj.GenerateResource.Cache
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeTomorrowsPresentation\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate2.resources
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\ProjectCrux.dll.config
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\ProjectCrux.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\ProjectCrux.pdb
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Antlr3.Runtime.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\EntityFramework.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\EntityFramework.SqlServer.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Google.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Web.Infrastructure.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Newtonsoft.Json.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Owin.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\RequestReduce.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.Helpers.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.Mvc.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.Optimization.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.Razor.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.Deployment.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.Razor.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\WebGrease.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\RequestReduce.pdb
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.Helpers.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.Mvc.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.Optimization.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.Razor.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.Deployment.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\System.Web.WebPages.Razor.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Antlr3.Runtime.pdb
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Newtonsoft.Json.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\EntityFramework.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\EntityFramework.SqlServer.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Google.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate.resources
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate2.resources
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.csproj.GenerateResource.Cache
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.dll
+\\psf\Home\Desktop\ProjectCrux\ProjectCrux\obj\Debug\ProjectCrux.pdb
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\ProjectCrux.dll.config
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\ProjectCrux.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\ProjectCrux.pdb
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Antlr3.Runtime.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.SqlServer.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Google.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Web.Infrastructure.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Newtonsoft.Json.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Owin.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\RequestReduce.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Helpers.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Mvc.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Optimization.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Razor.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Deployment.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Razor.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\WebGrease.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\RequestReduce.pdb
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Helpers.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Mvc.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Optimization.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Razor.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Deployment.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Razor.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Antlr3.Runtime.pdb
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Newtonsoft.Json.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.SqlServer.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Google.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.dll
+\\psf\Home\Desktop\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.pdb
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\ProjectCrux.dll.config
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\ProjectCrux.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\ProjectCrux.pdb
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Antlr3.Runtime.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.SqlServer.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Newtonsoft.Json.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Owin.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\RequestReduce.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Helpers.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Mvc.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Optimization.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Razor.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Razor.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\WebGrease.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\RequestReduce.pdb
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Helpers.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Mvc.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Optimization.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Razor.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Razor.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Antlr3.Runtime.pdb
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Newtonsoft.Json.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.SqlServer.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.csprojResolveAssemblyReference.cache
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.dll
+C:\Users\Cam\Documents\Computer Science\285 project\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.pdb
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\ProjectCrux.dll.config
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\ProjectCrux.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\ProjectCrux.pdb
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Antlr3.Runtime.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\EntityFramework.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\EntityFramework.SqlServer.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Newtonsoft.Json.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Owin.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\RequestReduce.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.Helpers.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.Mvc.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.Optimization.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.Razor.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.WebPages.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.WebPages.Razor.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\WebGrease.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\RequestReduce.pdb
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.Helpers.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.Mvc.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.Optimization.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.Razor.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.WebPages.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\System.Web.WebPages.Razor.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Antlr3.Runtime.pdb
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Newtonsoft.Json.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\EntityFramework.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\EntityFramework.SqlServer.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\obj\Debug\ProjectCrux.csprojResolveAssemblyReference.cache
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\obj\Debug\ProjectCrux.dll
+C:\Users\Darryl\Desktop\STV3.5\ProjectCrux\obj\Debug\ProjectCrux.pdb
+C:\Users\Cam\Documents\Computer Science\285 Project\BeforeThursdaysPresentation\ProjectCrux\bin\PagedList.dll
+C:\Users\Cam\Documents\Computer Science\285 Project\BeforeThursdaysPresentation\ProjectCrux\bin\PagedList.Mvc.dll
+C:\Users\Cam\Documents\Computer Science\285 Project\BeforeThursdaysPresentation\ProjectCrux\bin\PagedList.xml
+C:\Users\Cam\Documents\Computer Science\285 Project\BeforeThursdaysPresentation\ProjectCrux\bin\PagedList.Mvc.xml
+C:\Users\Cam\Documents\Computer Science\285 Project\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate.resources
+C:\Users\Cam\Documents\Computer Science\285 Project\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.csproj.GenerateResource.Cache
+C:\Users\Cam\Documents\Computer Science\285 Project\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate2.resources
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate.resources
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate2.resources
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.csproj.GenerateResource.Cache
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\obj\Debug\ProjectCrux.pdb
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\ProjectCrux.dll.config
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\ProjectCrux.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\ProjectCrux.pdb
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Antlr3.Runtime.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.SqlServer.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Google.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Web.Infrastructure.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Newtonsoft.Json.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Owin.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\PagedList.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\PagedList.Mvc.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\RequestReduce.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Helpers.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Mvc.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Optimization.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Razor.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Deployment.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Razor.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\WebGrease.dll
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\PagedList.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\PagedList.Mvc.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\RequestReduce.pdb
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Helpers.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Mvc.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Optimization.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.Razor.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Deployment.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\System.Web.WebPages.Razor.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Antlr3.Runtime.pdb
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Newtonsoft.Json.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\EntityFramework.SqlServer.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Google.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.xml
+\\psf\Home\Desktop\finals\BeforeThursdaysPresentation\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\ProjectCrux.dll.config
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\ProjectCrux.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\ProjectCrux.pdb
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Antlr3.Runtime.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\EntityFramework.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\EntityFramework.SqlServer.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Google.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Web.Infrastructure.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Newtonsoft.Json.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Owin.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\PagedList.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\PagedList.Mvc.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\RequestReduce.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.Helpers.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.Mvc.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.Optimization.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.Razor.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.WebPages.Deployment.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.WebPages.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.WebPages.Razor.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\WebGrease.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\PagedList.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\PagedList.Mvc.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\RequestReduce.pdb
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.Helpers.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.Mvc.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.Optimization.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.Razor.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.WebPages.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.WebPages.Deployment.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\System.Web.WebPages.Razor.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Antlr3.Runtime.pdb
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Newtonsoft.Json.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\EntityFramework.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\EntityFramework.SqlServer.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Google.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\obj\Debug\ProjectCrux.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate.resources
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate2.resources
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\obj\Debug\ProjectCrux.csproj.GenerateResource.Cache
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\obj\Debug\ProjectCrux.dll
+\\psf\Home\Desktop\finals\FINALS\ProjectCrux\obj\Debug\ProjectCrux.pdb
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\ProjectCrux.dll.config
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\ProjectCrux.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\ProjectCrux.pdb
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Antlr3.Runtime.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\EntityFramework.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\EntityFramework.SqlServer.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Newtonsoft.Json.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Owin.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\PagedList.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\PagedList.Mvc.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\RequestReduce.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.Helpers.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.Mvc.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.Optimization.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.Razor.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.WebPages.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.WebPages.Razor.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\WebGrease.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\PagedList.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\PagedList.Mvc.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\RequestReduce.pdb
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.Helpers.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.Mvc.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.Optimization.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.Razor.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.WebPages.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\System.Web.WebPages.Razor.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Antlr3.Runtime.pdb
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Newtonsoft.Json.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\EntityFramework.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\EntityFramework.SqlServer.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\obj\Debug\ProjectCrux.csprojResolveAssemblyReference.cache
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate.resources
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate2.resources
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\obj\Debug\ProjectCrux.csproj.GenerateResource.Cache
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\obj\Debug\ProjectCrux.dll
+C:\Users\Cam\Documents\Computer Science\285\FINALS\ProjectCrux\obj\Debug\ProjectCrux.pdb
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\ProjectCrux.dll.config
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\ProjectCrux.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\ProjectCrux.pdb
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Antlr3.Runtime.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\EntityFramework.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\EntityFramework.SqlServer.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Google.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Web.Infrastructure.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Newtonsoft.Json.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Owin.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\PagedList.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\PagedList.Mvc.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\RequestReduce.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.Helpers.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.Mvc.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.Optimization.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.Razor.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.WebPages.Deployment.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.WebPages.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.WebPages.Razor.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\WebGrease.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\PagedList.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\PagedList.Mvc.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\RequestReduce.pdb
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.Helpers.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.Mvc.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.Optimization.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.Razor.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.WebPages.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.WebPages.Deployment.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\System.Web.WebPages.Razor.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Antlr3.Runtime.pdb
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Newtonsoft.Json.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\EntityFramework.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\EntityFramework.SqlServer.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Core.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.Owin.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Facebook.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Cookies.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.OAuth.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Google.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.Twitter.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\obj\Debug\ProjectCrux.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate.resources
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\obj\Debug\ProjectCrux.Migrations.ContextUpdate2.resources
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\obj\Debug\ProjectCrux.csproj.GenerateResource.Cache
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\obj\Debug\ProjectCrux.dll
+\\psf\Home\Desktop\Cam\FINALS\ProjectCrux\obj\Debug\ProjectCrux.pdb

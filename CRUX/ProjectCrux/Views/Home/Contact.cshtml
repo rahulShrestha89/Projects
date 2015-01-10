@@ -1,0 +1,477 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+<style>
+    #google-us-right {
+        position: relative;
+        left: 26px;
+    }
+
+    #map-canvas {
+        width: 890px;
+        height: 350px;
+        background-color: #CCC;
+    }
+
+    #team-us-right {
+        position: relative;
+        left: 60px;
+        padding: 10px;
+    }
+
+    #general {
+        position: relative;
+        left: 40px;
+    }
+
+    #Reah-us {
+        width: 265px;
+    }
+
+    #Team-us {
+        width: 265px;
+        text-align: center;
+    }
+
+    #text-indent {
+        text-indent: 10px;
+        text-align: center;
+    }
+
+    #info-bar1 {
+        text-indent: 10px;
+        text-align: center;
+        -webkit-background-clip: border-box;
+        box-sizing: content-box;
+        color: rgb(255, 255, 255);
+        position: relative;
+        left: 188px;
+        top: 12px;
+        vertical-align: baseline;
+        width: 306px;
+    }
+
+    #info-bar2 {
+        text-indent: 10px;
+        text-align: center;
+        -webkit-background-clip: border-box;
+        box-sizing: content-box;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        left: 510px;
+        top: 846px;
+        vertical-align: baseline;
+        width: 332px;
+    }
+
+    #info-bar3 {
+        box-sizing: content-box;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        left: 843px;
+        top: 846px;
+        width: 305px;
+    }
+
+    #info-bar4 {
+        text-indent: 10px;
+        text-align: center;
+        box-sizing: content-box;
+        color: rgb(255, 255, 255);
+        position: relative;
+        left: 188px;
+        top: 11px;
+        width: 945px;
+    }
+
+    #header-pic {
+        left: 200px;
+        top: 0px;
+        position: relative;
+        -webkit-background-clip: border-box;
+        -webkit-background-origin: padding-box;
+        -webkit-background-size: auto;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-color: rgb(46, 51, 55);
+        background-image: url(http://www.digitalbase.eu/images/page/4_banner_B.png);
+        background-origin: padding-box;
+        background-size: auto;
+        border-bottom-color: rgb(192, 194, 195);
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-image-outset: 0px;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+        border-left-color: rgb(192, 194, 195);
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: rgb(192, 194, 195);
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: rgb(192, 194, 195);
+        border-top-style: none;
+        border-top-width: 0px;
+        color: rgb(192, 194, 195);
+        display: block;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        height: 250px;
+        line-height: 14px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        width: 945px;
+        z-index: auto;
+    }
+
+
+
+
+    #Contact {
+        padding-top: 50px;
+        background-image: url('../Content/img/demo/_small/blur.jpg');
+        background-repeat: repeat;
+    }
+
+        #Contact .form-wrap {
+            width: 30%;
+            margin: 0 auto;
+        }
+
+        #Contact .h1 {
+            color: #026ab3;
+            font-size: 28px;
+            text-align: center;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+
+        #Contact .form-group {
+            margin-bottom: 25px;
+        }
+
+        #Contact .checkbox {
+            margin-bottom: 20px;
+            position: relative;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+            #Contact .checkbox.show:before {
+                content: '\e013';
+                color: #1fa67b;
+                font-size: 17px;
+                margin: 1px 0 0 3px;
+                position: absolute;
+                pointer-events: none;
+                font-family: 'Glyphicons Halflings';
+            }
+
+            #Contact .checkbox .character-checkbox {
+                width: 25px;
+                height: 25px;
+                cursor: pointer;
+                border-radius: 3px;
+                border: 1px solid #ccc;
+                vertical-align: middle;
+                display: inline-block;
+            }
+
+            #Contact .checkbox .label {
+                color: #6d6d6d;
+                font-size: 13px;
+                font-weight: normal;
+            }
+
+        #Contact .btn.btn-custom {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        #Contact .forget {
+            font-size: 13px;
+            text-align: center;
+            display: block;
+        }
+
+    /*    --------------------------------------------------
+    :: Inputs & Buttons
+    -------------------------------------------------- */
+    .form-control {
+        color: #212121;
+    }
+
+    .btn-custom {
+        position: relative;
+        color: rgb(51, 51, 51);
+        background-color: rgb(255, 255, 255);
+        outline-color: #839f37;
+        top: 32px;
+    }
+
+        .btn-custom:hover,
+        .btn-custom:focus {
+            color: rgb(51, 51, 51);
+        }
+
+    /*    --------------------------------------------------
+    :: Footer
+    -------------------------------------------------- */
+    #footer {
+        color: #6d6d6d;
+        font-size: 12px;
+        text-align: center;
+    }
+
+        #footer p {
+            margin-bottom: 0;
+        }
+
+        #footer a {
+            color: inherit;
+        }
+
+    #myModalLabel {
+        color: black;
+    }
+
+
+
+    #text-indent2 {
+        text-indent: 10px;
+    }
+</style>
+@model ProjectCrux.Models.AccountLoginViewModel
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.ValidationMessage("UserDoesNotExist");
+}
+
+
+
+
+
+<section id="Contact">
+    <div id="header-pic"></div>
+
+    <div class="container">
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script>
+            function initialize() {
+                var myLatlng = new google.maps.LatLng(30.514941, -90.466653);
+                var mapOptions = {
+
+                    zoom: 17,
+                    center: myLatlng
+
+                }
+                var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+                var marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    title: 'Crux Headquarters'
+
+                });
+
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+
+        </script>
+
+        <div class="masthead" id="info-bar4">
+            <div>
+                <div class="col1extra-right-padding">
+
+                    <p>&nbsp;</p>
+                    <h1 class="red" id="Mail-us">Our Location</h1>
+
+
+                    <div id="google-us-right">
+                        <div id="map-canvas"></div>
+                    </div>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+
+
+        </div>
+
+        <div class="masthead" id="info-bar1">
+
+            <div class="col1extra-right-padding">
+                <p>&nbsp;</p>
+
+                <p>&nbsp;</p>
+                <h1 class="Green" id="Reah-us">Reach Us</h1>
+                <hr />
+
+                <p>Please use the contact for any questions or requests, concerning our services.</p>
+                <p>We will respond to your message within 24 hours.</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="masthead" id="info-bar2">
+            <div>
+                <div class="col1extra-right-padding">
+
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+
+                    <h1 class="blue" id="general">General</h1>
+
+                    <hr />
+                    <p>Project Crux</p>
+                    <p>&nbsp;</p>
+                    <p>Email 1:<a title="Email us for more information" href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1">cruxprojectinfo@gmail.com</a></p>
+                    <p>Email 2:<a title="Email us for more information" href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1"> projectcruxfall14@gmail.com</a></p>
+                    <p>Southeastern Louisiana University</p>
+                    <p>Hammond,Louisiana 70402,</p>
+                    <p> 1.800.222.7358</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="masthead" id="info-bar3">
+            <div>
+                <div class="col1extra-right-padding">
+
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+
+                    <h1 class="orange" id="Team-us">Meet Our Team</h1>
+
+                    <hr />
+                    <p>&nbsp;</p>
+                    <div id="text-indent">
+                        <p>
+                            Our team is driven, committed, and acutely aware our limitless, potential.
+                            Click the button below to learn more about the Project Crux development team.
+                        </p>
+
+                    </div>
+                    <div id="myModalLabel">
+                        <div id="team-us-right">
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <a href="#" class="btn btn-lg btn-success"
+                               data-toggle="modal"
+                               data-target="#basicModal">Team Members</a>
+
+                            <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                                            <h4 class="modal-title" id="myModalLabel">Team :</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div>
+                                                <h3>Rahul Shrestha</h3>
+
+                                                <img class="spotlight" alt="" aria-describedby="fbPhotosSnowliftCaption" aria-busy="false" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/579443_448470221846140_1812424629_n.jpg?oh=0a208d27d17549e65c3211a2db5008c2&oe=54D44D91&__gda__=1426715874_cbb9aeea5c5337d7ca8fe3ebf1930677" style="width: 120px; height:140px;">
+                                                <p id="text-indent2">[Team leader] HTML, CSS, and Database development.</p>
+                                                <hr>
+                                            </div>
+                                            <div>
+                                                <h3>Cameron Otts</h3>
+
+                                                <img class="spotlight" alt="" aria-describedby="fbPhotosSnowliftCaption" aria-busy="false" src="https://scontent-a-dfw.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/999918_10203119621657296_2106665859_n.jpg?oh=a5e606b965d4ead51983488a0edcc460&oe=5507620C" style="width: 120px; height:140px;">
+                                                <p id="text-indent2">Database development.</p>
+                                                <hr>
+                                            </div>
+                                            <div>
+                                                <h3>Jordan Ernst</h3>
+
+                                                <img class="spotlight" alt="" aria-describedby="fbPhotosSnowliftCaption" aria-busy="false" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/224058_3780410920503_1652768650_n.jpg?oh=d9eb12dd01729d7c0464c8f51535378e&oe=551E47AB&__gda__=1427810656_c48444d8139fcaa0bef7767e5883a47b" style="width: 120px; height:140px;">
+                                                <p id="text-indent2">Database development.</p>
+                                                <hr>
+                                            </div>
+                                            <div>
+                                                <h3>Akande Oluwafazy Oluwafemi</h3>
+
+                                                <img class="spotlight" alt="" aria-describedby="fbPhotosSnowliftCaption" aria-busy="false" src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/282397_1727427720633_7981889_n.jpg?oh=33e47fc6630e4e8dffd9fb70bb15869c&oe=551BD09D&__gda__=1423132340_aa7d269086f98133cdc5b20f2050d896" style="width: 120px; height:140px;">
+                                                <p id="text-indent2">HTML and CSS development.</p>
+                                                <hr>
+                                            </div>
+                                            <div>
+                                                <h3>Jon Schackai</h3>
+
+                                                <img class="spotlight" alt="" aria-describedby="fbPhotosSnowliftCaption" aria-busy="false" src="https://scontent-b-dfw.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/549279_10150819815319396_805777268_n.jpg?oh=d6e55c299cf2bf22c615a58b5b6bb17c&amp;oe=55166A18" style="width: 120px; height:140px;">
+                                                <p id="text-indent2">HTML and CSS Development.</p>
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+
+
+    
+</section>
+

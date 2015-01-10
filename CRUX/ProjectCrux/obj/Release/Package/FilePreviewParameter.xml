@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="pcrux" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^\\\\psf\\Home\\Desktop\\Repo\\ProjectCrux\\ProjectCrux\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^\\\\psf\\Home\\Desktop\\Repo\\ProjectCrux\\ProjectCrux\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:jihi7mrcdn.database.windows.net,1433;Initial Catalog=pcruxAVfn4mIGkJg;User Id=projectcrux@jihi7mrcdn;Password=Thathotgirl89" tags="">
+    <parameterEntry kind="XmlFile" scope="\\\\psf\\Home\\Desktop\\Repo\\ProjectCrux\\ProjectCrux\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

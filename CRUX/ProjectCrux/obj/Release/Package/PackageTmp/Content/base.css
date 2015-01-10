@@ -1,0 +1,311 @@
+﻿
+/* ============================================================
+  RESET 
+============================================================ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  left:0;
+  right:0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ============================================================
+  BOX SIZING & CLEARFIX
+============================================================ */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ============================================================
+  HTML & BODY
+============================================================ */
+body {
+  background-color: white;
+  color: black;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+
+main {
+  display: block;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: inherit;
+  
+}
+
+/* ============================================================
+  INFO BAR
+============================================================ */
+.masthead{
+  background: #026ab3;
+  top: 0;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+.info-bar {
+  position: relative;
+  height: 90px;
+  width: 900px
+}
+
+.logo {
+   
+  float: left;
+  padding-left: 37px;
+  font-family: Josefin Slab;
+  font-size: 79px;
+  text-decoration: none; 
+  position: relative;
+}
+
+.logo h1 a{
+  color: white;
+}
+
+.logo h1 a:hover{
+    text-decoration: none;
+}
+
+h1{
+  margin: 0;
+}
+
+#navcontent {
+  word-spacing: 7px;
+}
+
+li{
+  position: relative;
+  left: 155px;
+  list-style: none;
+  float: left;
+  margin-left: 21px; 
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.navigation {
+  float: right;
+}
+
+.navigation li a{
+    color: white;
+}
+
+/* ============================================================
+  HEADER & SITE TITLE
+============================================================ */
+/* header */
+header .branding {
+  padding: 20px 0;
+}
+header .logo {
+  margin-bottom: 20px;
+  text-align: center;
+}
+header .logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+header .social {
+  text-align: center;
+}
+header .social a {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  color: rgba(0, 0, 0, 0);
+  font-size: 0;
+  text-indent: -9999px;
+  background-size: 30px 30px;
+  background-image: url('/Content/img/core/social-light.png');
+  background-image: url('/Content/img/core/social-light.svg'), none;
+  background-size: 180px 30px;
+}
+
+@media all and (min-width: 600px) {
+  header .branding {
+    padding-left: 60px;
+  }
+  header .logo {
+    margin-bottom: 0;
+    margin-left: -60px;
+    float: left;
+    width: 60px;
+    height: 60px;
+  }
+  header .logo img {
+    display: block;
+    margin: 0;
+  }
+  header .social {
+    padding: 15px 0;
+    float: right;
+    width: 100%;
+    text-align: right;
+  }
+}
+/* site title */
+.site-title {
+  padding: 5px 0;
+  background-color: #818181;
+  text-align: center;
+}
+.site-title {
+  color: #fff;
+}
+
+/* ============================================================
+  FOOTER
+============================================================ */
+footer {
+  padding: 20px 0;
+}
+footer .asides {
+  margin-bottom: 5px;
+}
+footer aside {
+  margin-bottom: 5px;
+}
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+footer nav li {
+  display: inline-block;
+}
+footer nav a {
+  display: block;
+  margin: 0;
+  color: #fff;
+}
+footer .logo {
+  text-align: right;
+  padding-right:75px;
+}
+footer .logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .copyright {
+  text-align: center;
+}
+footer .copyright small {
+  color: #fff;
+  font-size: 12px;
+}
+footer .copyright a {
+  color: white;
+}
+
+@media all and (min-width: 600px) {
+  footer aside {
+    margin-bottom: 0;
+    
+    width: 33.3333%;
+  }
+  footer nav ul {
+    text-align: center;
+  }
+  footer nav li {
+    display: block;
+  }
+  footer nav a {
+    display: inline-block;
+    margin: 0;
+  }
+  footer .logo {
+    text-align: right;
+  }
+}
+
+/* ============================================================
+  TEXT LEVEL SEMANTICS
+============================================================ */
+a {
+  text-decoration: none;
+  color: #b4b4b4;
+  display: inline-block;
+}
+
+a:hover {
+  color: #818181;
+}
+.social{
+ background: black;
+  top:10px; 
+  width: 50px;
+  position: absolute;
+  
+
+
+}
