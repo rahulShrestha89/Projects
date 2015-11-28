@@ -1,0 +1,168 @@
+﻿@model IEnumerable<Game_Store_Web_Front.Models.GetGameDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<style>
+    .gameCovers {
+        width:100px;
+        height:auto:
+    }
+
+</style>
+
+<table id="myTable" class="hover dataTable">
+    <thead>
+        <tr>
+            <th>
+                Cover
+            </th>
+            <th>
+                Game Name
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Release Date
+            </th>
+            <th>
+                Inventory Stock
+            </th>
+            <th>
+                Genres
+            </th>
+            <th>
+                Tags
+            </th>
+            <th>
+                Commands
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><img src="@item.imageSource" class="gameCovers thumbnail"/></td>
+                <td>@item.GameName</td>
+                <td>@item.Price</td>
+                <td>@item.ReleaseDate.ToString("MMMM d, yyyy")</td>
+
+                
+                <td>@item.InventoryStock</td>
+                <td>
+                    <ul>
+                        @foreach (var thing in item.Genres)
+                        {
+                            <li>
+                                @thing.Name
+                            </li>
+                        }
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        @foreach (var thing in item.Tags)
+                        {
+                            <li>
+                                @thing.Name
+                            </li>
+                        }
+                    </ul>
+                </td>
+                <td>
+                    <button type="button" id="editButton @item.Id" onclick="window.location.href='/game/edit/@item.Id'" class="pull-right btm btn-warning" value="Edit">Edit</button>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!--
+<div class="panel-group" id="accordion">
+    @foreach (var item in Model)
+    {
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#@item.Id">@item.GameName</a>
+                    Share: @LinkShare.GetHtml(this.Url.ToString(), linkSites: new[]{
+                           LinkShareSite.Reddit, LinkShareSite.Facebook, LinkShareSite.Twitter})
+                    <button type="button" id="deleteButton @item.Id" onclick="deleteGame(@item.Id)" class="pull-right btm btn-danger" value="Delete">Delete</button>
+                    <button type="button" id="editButton @item.Id" onclick="window.location.href='/game/edit/@item.Id'" class="pull-right btm btn-warning" value="Edit">Edit</button>
+
+                </h4>
+            </div>
+            <div id="@item.Id" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>Inventory: @item.InventoryStock</p>
+                    <p>Price: @item.Price</p>
+                    <p>Release Date: @item.ReleaseDate.ToString("MMMM d, yyyy")</p>
+                    <p>
+                        Tags:
+                        <ul>
+                            @foreach (var tag in item.Tags)
+                            {
+
+                                <li>
+                                    @tag.Name
+                                </li>
+
+                            }
+                        </ul>
+                    </p>
+                    <p>
+                        Genres:
+                        <ul>
+                            @foreach (var genre in item.Genres)
+                            {
+
+                                <li>
+                                    @genre.Name
+                                </li>
+
+                            }
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+-->
+
+
+<script>
+    speak('Woah now! That is a lot of games! How do yo plan to sell all of these?');
+    function deleteGame(deleteId) {
+        var temp = deleteId
+        $.ajax({
+            contentType: 'application/json',
+            type: 'POST',
+            url: '/Game/Delete',
+            data: JSON.stringify({ id: deleteId }),
+            success: function (data) {
+                console.log("GOT IT");
+                window.location.href = data.Url
+            },
+            error: function () {
+                console.trace();
+            }
+        });
+
+    }
+
+    $(document).ready(function () {
+        $('#myTable').DataTable();
+    });
+
+</script>

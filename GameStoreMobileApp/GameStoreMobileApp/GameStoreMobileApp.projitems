@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{47B47693-46A4-4D48-9823-9671276B3C04}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>GameStoreMobileApp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GameStoreMobileApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\UserRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ContactUs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\GetTherePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\HomeScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LocateUs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LogInPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LookAround.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MyLabel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SignUp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\StoreMapPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interface\IHud.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AllGames.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SearchGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\UserApiKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\UnauthorizedLookAround.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\GameRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Game.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Roles.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Genre.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Tag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\UserAccount.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\OrderHistory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AccountSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\BillingInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ShippingInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\RedeemDiscount.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Help.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Notofications.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Legal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AccountBalance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LOGOUT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\GameDetailPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CheckOutPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\CartRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Repositories\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Interface\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,225 @@
+﻿@model Game_Store_Web_Front.Models.SetGameDTO
+
+@{
+    ViewBag.Title = "Create";
+}
+
+
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    <form>
+    <div class="form-horizontal">
+        <h4>Game</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.GameName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GameName, new { htmlAttributes = new { @class = "form-control", @id="gameName"} })
+                @Html.ValidationMessageFor(model => model.GameName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ReleaseDate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ReleaseDate, new { htmlAttributes = new { @class = "form-control datepicker", @id="releaseDate" } })
+                @Html.ValidationMessageFor(model => model.ReleaseDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control", @id = "price" } })
+                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.InventoryStock, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.InventoryStock, new { htmlAttributes = new { @class = "form-control", @id="inventoryStock" } })
+                @Html.ValidationMessageFor(model => model.InventoryStock, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+       
+
+        <div class="container" style="margin-top:20px;">
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3 class="text-center">Genres</h3>
+                    <input type="search" placeholder="Genre Search" id="genreSearch" />
+                    <div class="well" style="max-height: 300px;overflow: auto;">
+                        <ul id="check-list-box-genres" class="list-group checked-list-box">
+                            @foreach (Game_Store_Web_Front.Models.GetGenreDTO genre in ViewBag.genres)
+                            {
+                                <li class="genre list-group-item" id="genre-@genre.Id">@genre.Name</li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <h3 class="text-center">Tags</h3>
+                    <input type="search" placeholder="Tag Search" id="tagSearch" />
+                    <div class="well" style="max-height: 300px;overflow: auto;">
+                        <ul id="check-list-box-tags" class="list-group checked-list-box">
+                            @foreach (Game_Store_Web_Front.Models.GetTagDTO tag in ViewBag.tags)
+                            {
+                                <li class="tag list-group-item" id="genre-@tag.Id">@tag.Name</li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="button" value="Create" class="btn btn-default" onclick="sendInput();" />
+                </div>
+            </div>
+        </div>
+ </form>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script>
+    $(function () {
+        $('.datepicker').datepicker();
+    });
+    var temp = Math.floor((Math.random() * 2) + 1);
+    var thing;
+    var other;
+    if (temp === 1) {
+        thing = "genre";
+        var genreList = [], counter = 0;
+        $(".genre").each(function (idx, li) {
+            var split = $(li).attr('id').split('-')
+            genreList.push($(li).text())
+        });
+        var item = genreList[Math.floor(Math.random() * genreList.length)];
+        console.log(item);
+        other = item;
+    }
+    else {
+        thing = "tag";
+        var tagList = [], counter = 0;
+        $(".tag").each(function (idx, li) {
+            var split = $(li).attr('id').split('-')
+            tagList.push($(li).text())
+        });
+        var item = tagList[Math.floor(Math.random() * tagList.length)];
+        console.log(item);
+        other = item;
+    }
+    speak('What kind of game would you like to make? Perhaps one with a ' + other + thing);
+    var createGame = {};
+    function sendInput() {
+        var tags = getCheckedTags();
+        var genres = getCheckedGenres();
+
+
+        console.log(tags);
+        console.log(genres);
+
+        var gameName = "test";
+        var releaseDate = "test";
+        var price = "1";
+        var inventoryCount = "1";
+        
+        //createGame.Id = "1";
+        createGame.GameName = $('#gameName').val();;
+        createGame.ReleaseDate = $('#releaseDate').val();
+        createGame.Price = $('#price').val();
+        createGame.InventoryStock = $('#inventoryStock').val();
+        createGame.Genres = genres;
+        createGame.Tags = tags;
+
+        
+
+        $.ajax({
+            contentType: 'application/json',
+            type: 'POST',
+            url: '/Game/Create',
+            data: JSON.stringify(createGame),
+            success: function (data) {
+                console.log("GOT IT");
+                window.location.href = data.Url
+            },
+            error: function () {
+                console.trace();
+            }
+        });
+
+    }
+
+    function getCheckedTags() {
+        var checkedItems = [], counter = 0;
+        $("#check-list-box-tags li.active").each(function (idx, li) {
+            var split = $(li).attr('id').split('-')
+            checkedItems.push({ Name: $(li).text(), Id: split[split.length - 1] })
+            counter++;
+        });
+        return checkedItems;
+    }
+    function getCheckedGenres() {
+        var checkedItems = [], counter = 0;
+        $("#check-list-box-genres li.active").each(function (idx, li) {
+            var split = $(li).attr('id').split('-')
+            checkedItems.push({Name:$(li).text(), Id:split[split.length-1]})
+            counter++;
+        });
+        return checkedItems;
+    }
+
+    jQuery('#tagSearch').on('input', function () {
+        //$('.tag').css("display", "none");
+        var searchLetter = $('#tagSearch').val().toLocaleLowerCase();
+        $('.tag').each(function( idx, li){
+            var split = $(li).text().toLowerCase();
+            
+            if(!(split.indexOf(searchLetter) > -1)) {
+                li.style.display = "none";
+                console.log("hide?")
+            }
+            else{
+                
+                li.style.display = "block";
+                console.log("show?")
+            }
+
+        })
+    });
+
+    jQuery('#genreSearch').on('input', function () {
+        var searchLetter = $('#genreSearch').val().toLocaleLowerCase();
+        $('.genre').each(function (idx, li) {
+            var split = $(li).text().toLowerCase();
+
+            if (!(split.indexOf(searchLetter) > -1)) {
+                li.style.display = "none";
+                console.log("hide?")
+            }
+            else {
+
+                li.style.display = "block";
+                console.log("show?")
+            }
+
+        })
+    });
+</script>

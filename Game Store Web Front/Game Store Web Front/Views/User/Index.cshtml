@@ -1,0 +1,170 @@
+﻿@model IEnumerable<Game_Store_Web_Front.Models.GetUserDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@Html.ValidationSummary(true)
+
+
+
+
+<body>
+  
+    <div id="UserList"> </div>
+    <table id="myTable" class="hover dataTable">
+        <thead>
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    Last Name
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Role
+                </th>
+                <th>
+                    Commands
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.Email</td>
+                    <td>@item.Role</td>
+                    <td>
+                        <!--<button type="button" id="deleteButton @item.Id" onclick="deleteGame(@item.Id)" class="btm btn-danger" value="Delete">Delete</button>-->
+                        
+                        <button type="button" class="btm btn-danger" data-toggle="modal" data-target="#@item.Id">
+                            Delete
+                        </button>
+                        <button type="button" id="editButton @item.Id" onclick="window.location.href='/user/edit/@item.Id'" class="btm btn-warning" value="Edit">Edit</button>
+                    </td>
+                </tr>
+
+
+                    
+            }
+                
+        </tbody>
+    </table>
+
+    @foreach (var item in Model)
+    {
+        <div class="modal fade" id="@item.Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Delete Confirmation</h4>
+                    </div>
+                    <div class="modal-body">
+                        Are you sure you'd like to delete @item.FirstName @item.LastName?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btm btn-success" onclick="deleteUser(@item.Id)" data-dismiss="modal">Yes</button>
+                        <button type="button" class="btm btn-danger" data-dismiss="modal">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+        
+</body>
+
+
+<script type="text/javascript">
+
+
+    @*$(document).ready(function () {
+
+        $('#UserList').jtable({
+            title: 'Student List',
+            paging: true,
+            pageSize: 10,
+            sorting: true,
+            defaultSorting: 'Name ASC',
+            actions: {
+                listAction: '@Url.Action("ListAllUser")',
+                deleteAction: '@Url.Action("ListAllUser")',
+                updateAction: '@Url.Action("ListAllUser")',
+                createAction: '@Url.Action("ListAllUser")'
+            },
+            fields: {
+                URL: {
+                    title: 'URL',
+                    create: false,
+                    edit: false
+
+                },
+                Id: {
+                    title: 'Id',
+                    list: false
+
+                },
+                FirstName: {
+                    title: 'First Name'
+                },
+                LastName: {
+                    title: 'Last Name'
+                },
+                Email: {
+                    title: 'Email'
+                },
+                Role: {
+                    title: 'Role'
+                },
+                ApiKey: {
+                    title: 'Api Key'
+                },
+                Password: {
+                    title: 'Password',
+                    list: false
+                }
+            }
+        });
+
+        //Load student list from server
+        $('#UserList').jtable('load');
+    });*@
+
+    function deleteUser(deleteId) {
+        var temp = deleteId
+        $.ajax({
+            contentType: 'application/json',
+            type: 'POST',
+            url: '/User/Delete',
+            data: JSON.stringify({ id: deleteId }),
+            success: function (data) {
+                console.log("GOT IT");
+                window.location.href = data.Url
+            },
+            error: function () {
+                console.trace();
+            }
+        });
+
+    }
+
+
+    $(document).ready(function () {
+        $('#myTable').DataTable();
+    });
+
+</script>
+

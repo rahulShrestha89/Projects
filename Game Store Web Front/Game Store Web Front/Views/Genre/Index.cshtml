@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Game_Store_Web_Front.Models.GetGenreDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            <button type="button" id="editButton @item.Id" onclick="window.location.href='/genre/edit/@item.Id'" class="btm btn-warning" value="Edit">Edit</button>
+            <button type="button" id="@item.Id" onclick="deleteGenre(@item.Id)" class="btm btn-danger" value="Delete">Delete</button>
+        </td>
+    </tr>
+}
+
+</table>
+
+<script>
+    speak('More genres. More genres. More genres.');
+
+
+    function deleteGenre(deleteId) {
+        var temp = deleteId
+        $.ajax({
+            contentType: 'application/json',
+            type: 'POST',
+            url: '/Genre/Delete',
+            data: JSON.stringify({id: deleteId}),
+            success: function (data) {
+                console.log("GOT IT");
+                window.location.href = data.Url
+            },
+            error: function () {
+                console.trace();
+            }
+        });
+
+    }
+
+</script>

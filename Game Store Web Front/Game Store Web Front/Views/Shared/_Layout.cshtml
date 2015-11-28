@@ -1,0 +1,399 @@
+﻿<!DOCTYPE html>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+
+
+
+<style>
+    nav.navbar-mybar {
+        background: #fff;
+        border-color: #ccc;
+        box-shadow: 0 0 2px 0 #ccc;
+        text-decoration: none;
+    }
+
+        nav.navbar-mybar a {
+            color: #E64A19;
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+        }
+
+        nav.navbar-mybar ul.navbar-nav a {
+            color: #E64A19;
+            border-style: solid;
+            border-width: 0 0 2px 0;
+            border-color: #fff;
+            font-size: large;
+        }
+
+            nav.navbar-mybar ul.navbar-nav a:hover,
+            nav.navbar-mybar ul.navbar-nav a:visited,
+            nav.navbar-mybar ul.navbar-nav a:focus,
+            nav.navbar-mybar ul.navbar-nav a:active {
+                background: #fff;
+            }
+
+            nav.navbar-mybar ul.navbar-nav a:hover {
+                border-color: #f14444;
+                text-decoration: none;
+            }
+
+        nav.navbar-mybar li.divider {
+            background: #ccc;
+        }
+
+        nav.navbar-mybar button.navbar-toggle {
+            background: #f14444;
+            border-radius: 2px;
+        }
+
+            nav.navbar-mybar button.navbar-toggle:hover {
+                background: #999;
+            }
+
+            nav.navbar-mybar button.navbar-toggle > span.icon-bar {
+                background: #fff;
+            }
+
+        nav.navbar-mybar ul.dropdown-menu {
+            border: 0;
+            background: #fff;
+            border-radius: 4px;
+            margin: 4px 0;
+            box-shadow: 0 0 4px 0 #ccc;
+        }
+
+            nav.navbar-mybar ul.dropdown-menu > li > a {
+                color: #444;
+            }
+
+                nav.navbar-mybar ul.dropdown-menu > li > a:hover {
+                    background: #f14444;
+                    color: #fff;
+                }
+
+        nav.navbar-mybar span.badge {
+            background: #f14444;
+            font-weight: normal;
+            font-size: 11px;
+            margin: 0 4px;
+        }
+
+            nav.navbar-mybar span.badge.new {
+                background: rgba(255, 0, 0, 0.8);
+                color: #fff;
+            }
+
+
+    #search {
+        float: right;
+        margin-top: 9px;
+        width: 250px;
+    }
+
+    .search {
+        padding: 5px 0;
+        width: 230px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        float: left;
+        line-height: 42px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+        .search input {
+            position: absolute;
+            width: 0px;
+            float: Left;
+            margin-left: 210px;
+            -webkit-transition: all 0.7s ease-in-out;
+            -moz-transition: all 0.7s ease-in-out;
+            -o-transition: all 0.7s ease-in-out;
+            transition: all 0.7s ease-in-out;
+            height: 30px;
+            line-height: 18px;
+            padding: 0 2px 0 2px;
+            border-radius: 1px;
+        }
+
+            .search:hover input, .search input:focus {
+                width: 200px;
+                margin-left: 0px;
+            }
+
+    .btn {
+        height: 40px;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        border-radius: 1px;
+    }
+
+    .appLink {
+        height: 70px;
+        width: 200px;
+    }
+</style>
+
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Best Store in Town</title>
+    <link href="~/Content/jquery.dataTables.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Scripts/jquery.dataTables.js")
+    @Scripts.Render("~/Content/jquery.dataTables.css")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/Custom%20Scripts/Checkbox.js")
+    @Scripts.Render("~/Content/SideBar.css")
+    <link href="~/Content/SideBar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="~/Scripts/Custom%20Scripts/RoboSpeak.js"></script>
+</head>
+<body>
+
+
+    @if (Session["Role"] == null || Session["Role"].Equals("User") )
+    {
+        <nav class="navbar navbar-mybar navbar-fixed-top" style="height:60px">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <strong style="font-size:40px; text-decoration : none ">@Html.ActionLink("ANFIELD", "Index", "Home")</strong>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-fw fa-bell-o"></i> Games <span class="glyphicon glyphicon-arrow-down"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/game"><i class="fa fa-fw fa-tag"></i> <span class="badge">Recent Releases</span>  <span class="badge">By Date</span>All the new ones in Store !</a></li>
+                                <li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Coming Soon</span> Keep yourself Updated !</a></li>
+                                <li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">All Collection</span>Look out for all the Games in Store !</a></li>
+                                <li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Sale</span>Save more than 36% !(Limited Offer)</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="active"><a href="#">News <span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Location</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Return and Shipping</a></li>
+                                <li><a href="#exit">Our Team</a></li>
+                            </ul>
+                        </li>
+                        @if(Session["Role"] == null){
+                        <li class="active">@Html.ActionLink("Sign In", "Login", "User") <span class="sr-only">(current)</span></li>
+                        }
+                        else{
+                            <li class="active" onclick="logout();">@Html.ActionLink("Logout", "", "") <span class="sr-only">(current)</span></li>
+                        }
+                    </ul>
+                    <form class="search navbar-right">
+                        <input type="text" class="form-control input-sm" maxlength="64" placeholder="Search Game" />
+                        <button type="submit" class="btn btn-primary btn-sm" style="background-color:#E64A19; border-color: #E64A19; font-size:large ">Search</button>
+
+                    </form>
+                </div>
+        </nav>
+    }
+    else
+    {
+        <nav class="navbar navbar-default sidebar" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <strong style="font-size:20px; text-decoration : none; color:#E64A19 ">
+                        ANFIELD Admin
+                    </strong>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Cart Id" id="cartId">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button" onclick="makeSale();" data-toggle="modal" data-target="#myModal">Make Sale</button>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="active"><a href="/Home">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Users <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
+                            <ul class="dropdown-menu forAnimate" role="menu">
+                                <li><a href="/User">Index</a></li>
+                                <li><a href="/User/Create">Create</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity gfa fa-gamepad"></span></a>
+                            <ul class="dropdown-menu forAnimate" role="menu">
+                                <li><a href="/Game">Index</a></li>
+                                <li><a href="/Game/Create">Create</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tags <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></a>
+                            <ul class="dropdown-menu forAnimate" role="menu">
+                                <li><a href="/Tag">Index</a></li>
+                                <li><a href="/Tag/Create">Create</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Genres <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></a>
+                            <ul class="dropdown-menu forAnimate" role="menu">
+                                <li><a href="/Genre">Index</a></li>
+                                <li><a href="/Genre/Create">Create</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/Sale/ListAllCarts">Carts<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-shopping-cart"></span></a></li>
+                        <li><a href="/Sale/ListAllSales">Sales<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon fa fa-usd"></span></a></li>
+                        <li><a href="#" onclick="logout();">Logout<span style=" font-size:16px;" class="pull-right hidden-xs showopacity fa fa-key"></span></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    }
+    
+    <div class="container">
+
+
+        @RenderBody()
+
+
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Group 2 { Yet to Find a Good Name }</p>
+            <a href="https://bitbucket.org/selucmps383/sp15-p3-g2">
+                <img src="http://www-static.opera.com/static-heap/aa/aac0468e8b90d69b31fa302f1712e17460edc73c/app-store-en@2x.png" class="appLink">
+                <img src="http://cdn2.bigcommerce.com/n-zfvgw8/q4x7mo2/product_images/uploaded_images/download-on-google-play.png?t=1404831880" class="appLink">
+            </a>
+        </footer>
+    </div>
+
+
+    @RenderSection("scripts", required: false)
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Make Sale</h4>
+                </div>
+                <div class="modal-body" id="partialHere">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="modalButton" class="btm btn-default" onclick="makePayment();"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    var cartId;
+    function makeSale() {
+        cartId = $('#cartId').val();
+        speak('Processing Cart' + cartId);      
+        $.ajax({
+            contentType: 'application/json',
+            type: 'Get',
+            url: '/Sale/create/' + cartId,
+            success: function (data) {
+                console.log(data);
+                $('#partialHere').html(data);
+                $('#modalButton').html("Payment");
+                $('#modalButton').attr("onclick", "makePayment();");
+            },
+            error: function () {
+                console.trace();
+            }
+        });
+        console.log(cartId);
+    }
+    function makePayment() {
+        speak('Input the card information. We are so close to making a sale');
+        console.log(cartId);
+        $.ajax({
+            contentType: 'application/json',
+            type: 'Get',
+            url: '/Sale/payment/' + cartId,
+            data: { 'id': cartId },
+            success: function (data) {
+                $('#partialHere').html(data);
+                $('#modalButton').html("Confirm");
+                $('#modalButton').attr("onclick", "confirmPayment();");
+            },
+            error: function () {
+                console.trace();
+            }
+        });
+    }
+
+    function confirmPayment() {
+        speak('Making the money! One step closer to world domination.....I mean harmony');
+        var info = {};
+        info.cardNum = $('#cardNum').val();
+        info.expirationDate = $('#expirationDate').val();
+        info.ammount = $('#price').val();
+        info.userId = 1;
+        console.log(info);
+        $.ajax({
+            contentType: 'application/json',
+            type: 'Post',
+            url: '/Sale/Payment/',
+            data: JSON.stringify(info),
+            success: function (data) {
+
+                $('#myModal').modal('hide');
+
+            },
+            error: function () {
+                console.trace();
+            }
+        });
+    }
+
+    function logout() {
+        $.ajax({
+            contentType: 'application/json',
+            type: 'Post',
+            url: '/User/Logout/',
+            success: function (data) {
+                console.log(data);
+                window.location.href = data.Url;
+            },
+            error: function () {
+                console.trace();
+            }
+        });
+    }
+
+</script>
+

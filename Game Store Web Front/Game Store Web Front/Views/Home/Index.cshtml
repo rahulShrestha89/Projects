@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewBag.Title = "Game Store";
+}
+
+
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<style>
+    .video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 496px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.video-section h1, .video-section h3{
+text-align:center;
+color:#fff;
+}
+.video-section h1{
+font-size:90px;
+font-family: 'Open Sans', sans-serif;
+font-weight:bold;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section h3{
+font-size: 25px;
+font-weight:lighter;
+font-family: 'Open Sans', sans-serif;
+margin: 0px auto 15px;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+</style>
+
+
+
+
+
+<section class="content-section video-section">
+    <div class="pattern-overlay">
+        <a id="bgndVideo" class="player" data-property="{videoURL:'Q21bznzy_HY',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" style="padding-top:190px">
+                    <h1>Beta Version 0.1!</h1>
+                    <h3>Best and Cheapest Store in Town...</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Best Prices</h2>
+        <p>
+            We offer competitive prices for the most popular games. Don't think just because you've played a game you're done either! We offer game trade in's for cash or our in store currency!
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Best Hours</h2>
+        <p>We know that most gamers, while do come out during the day are actually primarily nocturnal. To accomodate those we have extended hours to the public.</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Best Community</h2>
+        <p>A friendly environment which welcomes everyone! Come join the family here by joining our rewards club and participating in our events!</p>
+    </div>
+    <div>
+        <p>
+            Share: @LinkShare.GetHtml(this.Url.ToString(), linkSites: new[]{
+            LinkShareSite.Reddit, LinkShareSite.Facebook, LinkShareSite.Twitter})
+        </p>
+    </div>
+</div>
+
+
+<script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
+<script>
+    $(function () {
+        $(".player").mb_YTPlayer();
+    });
+    console.log('@Session["Name"]');
+    if ('@Session["Name"]' != "") {
+        speak('Hello, ' + '@Session["Name"]' + '! How are you today?');
+    }
+</script>
